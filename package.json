@@ -1,0 +1,20 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Teste para servir SPAs com express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build:nuxt": "cd app/views/nuxt && yarn && yarn generate",
+    "build:vue": "cd app/views/vue && yarn && yarn build",
+    "build:all": "yarn build:nuxt && yarn build:vue"
+  },
+  "type": "module",
+  "author": "Daniel Rosa",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
