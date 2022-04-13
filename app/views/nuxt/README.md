@@ -1,4 +1,4 @@
-# front1
+# Nuxt
 
 ## Build Setup
 
