@@ -1,4 +1,4 @@
-# Express Server for Vue builds
+# Express Server for static files
 
 Hey! This is a simple server for SPA builds.
 
